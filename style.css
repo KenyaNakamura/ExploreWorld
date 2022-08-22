@@ -1,0 +1,161 @@
+.background-img {
+    background: url(./img/hill.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+/* background-repeat: no-repeat;
+background-position: bottom;
+background-size: cover;
+背景画像の表示要素 */
+header {
+    padding: 20px 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 32px;
+    width: auto;
+}
+
+.header-right ul {
+    display: flex;
+}
+
+.header-right li {
+    margin-left: 60px;
+    font-size: 20px;
+    color: white;
+}
+
+/* ↓top左上から５０％とleft左側から５０％X軸は中央値の点
+transform: translateX(-50%)はleft左側から５０％のX軸を
+１００％としてそこからー５０％*/
+.title {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    line-height: 1;
+}
+
+/* line-heightは行間 */
+h1 {
+    font-size: 120px;
+    font-weight: bold;
+    width: 900px;
+}
+
+.title p {
+    font-size: 26px;
+    margin-top: 30px;
+}
+
+/* セクションabout */
+.section1 {
+    margin: 0 70px;
+}
+
+h2 {
+    margin: 100px 0 70px;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+}
+
+.container img {
+    width: auto;
+    height: 300px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+.container p {
+    font-size: 15px;
+}
+
+.right {
+    margin-left: 50px;
+    margin-top: 80px;
+}
+
+
+
+/* セクションplan */
+.boxs {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box {
+    border: solid 1px;
+    margin: 0 15px;
+    padding: 20px 30px;
+}
+
+.box p {
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.boxname {
+    text-align: center;
+}
+
+/* セクションcontact */
+
+form *{
+    display: block;
+    margin: 0 auto;
+}
+input {
+    border: solid 1px black;
+    width: 40%;
+    margin-bottom: 18px;
+    padding: 3px 12px;
+    border-radius: 5px;
+    font-size: 23px;
+    display: block;
+}
+
+textarea {
+    border: solid 1px black;
+    width: 40%;
+    margin-bottom: 18px;
+    padding: 3px 12px;
+    border-radius: 5px;
+    font-size: 23px;
+}
+
+button {
+    border: solid 1px black;
+    background-color: #223644;
+    color: white;
+    font-size: 23px;
+    padding: 7px;
+    width: 140px;
+    height: 60px;
+    text-align: center;
+}
+
+footer{
+    margin-top: 200px;
+    background-color: #223644;
+    padding: 30px;
+    text-align: center;
+}
+p{
+    color: white;
+}
